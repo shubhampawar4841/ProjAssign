@@ -7,10 +7,10 @@ const approaches = [
   
   function ApproachData() {
     return (
-      <div className="bg-white rounded-lg p-6 border border-blue-300">
-        <h3 className="flex items-center space-x-2 font-semibold mb-4">
+      <div className="bg-white rounded-md p-2 border border-blue-300">
+        <h3 className="flex items-center space-x-1 text-sm font-semibold mb-2">
           <svg
-            className="w-5 h-5"
+            className="w-4 h-4"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -24,16 +24,16 @@ const approaches = [
           </svg>
           <span>Approach Data</span>
         </h3>
-        <div className="space-y-2">
+        <div className="space-y-1">
           {approaches.map(({ label, percentage }) => (
             <div
               key={label}
-              className="flex items-center justify-between p-2 rounded-lg border border-blue-300"
+              className="flex items-center justify-between p-1 rounded-md border border-blue-300"
             >
-              <span className="font-semibold text-blue-600 px-2 py-1 border-2 border-blue-500 rounded bg-blue-100">
+              <span className="text-xs font-semibold text-blue-600 px-1 py-0.5 border border-blue-500 rounded bg-blue-100">
                 {percentage}%
               </span>
-              <span className="text-sm">{label}</span>
+              <span className="text-xs">{label}</span>
             </div>
           ))}
         </div>

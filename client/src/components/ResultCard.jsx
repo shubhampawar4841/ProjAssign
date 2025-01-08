@@ -41,8 +41,8 @@ function ResultCard() {
           </div>
           <div className="mt-2 flex items-center space-x-2">
             <span className="text-sm text-gray-600">By</span>
-            <span className="text-sm font-medium">Parth Akotkar</span>
-            <span className="bg-teal-500 text-white text-xs px-2 py-1 rounded">
+            <span className="text-sm font-medium">shubham</span>
+            <span className="bg-teal-500 text-white text-xs px-1 py-1 rounded">
               92% ACCURACY
             </span>
           </div>

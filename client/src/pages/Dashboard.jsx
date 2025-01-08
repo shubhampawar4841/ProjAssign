@@ -4,7 +4,7 @@ import AnalyticsSection from '../components/AnalyticsSection';
 
 function Dashboard() {
   return (
-    <div className="min-h-screen bg-[#1e2530]">
+    <div className="min-h-screen bg-slate-400">
       <Navbar />
       <main className="container mx-auto p-6 grid lg:grid-cols-4 gap-6">
         {/* Left Section */}

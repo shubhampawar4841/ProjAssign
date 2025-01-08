@@ -1,6 +1,6 @@
 function AccuracyChart() {
     const data = [75, 45, 35, 65, 55, 45, 65];
-    const labels = ['Task 1', 'Task 2', 'Task 3', 'Task 4', 'Task 5', 'Task 6', 'Task 7'];
+    const labels = [' 1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7'];
   
     return (
       <div className="bg-white rounded-lg p-6 shadow-lg">

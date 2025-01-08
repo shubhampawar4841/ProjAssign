@@ -24,10 +24,10 @@ const subjects = [
   
   function SubjectTags() {
     return (
-      <div className="bg-white rounded-lg p-2">
-        <h3 className="flex items-center space-x-4 font-semibold mb-4">
+      <div className="bg-white rounded-md p-1">
+        <h3 className="flex items-center space-x-2 text-sm font-semibold mb-2">
           <svg
-            className="w-5 h-5"
+            className="w-4 h-4"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -41,13 +41,13 @@ const subjects = [
           </svg>
           <span>Improvements</span>
         </h3>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-1">
           {subjects.map((subject, index) => (
             <span
               key={subject}
-              className={`text-xs px-1 py-1 rounded-full ${
+              className={`text-[10px] px-2 py-0.5 rounded-full ${
                 bgColors[index % bgColors.length]
-              }`}
+              } text-white`}
             >
               {subject}
             </span>

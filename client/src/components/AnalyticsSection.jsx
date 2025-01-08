@@ -3,7 +3,8 @@ import ResponseTime from './ResponseTime';
 import ApproachData from './ApproachData';
 import AccuracyChart from './AccuracyChart';
 import TimeTaken from './TimeTaken';
-import CompareAccuracy from './CompareAccuracy'; // Import the CompareAccuracy component
+import CompareAccuracy from './CompareAccuracy';
+import Suggestions from './Suggestion'; // Import the CompareAccuracy component
 
 function AnalyticsSection() {
   return (
@@ -20,7 +21,7 @@ function AnalyticsSection() {
         <SubjectTags />
         <ResponseTime />
         <ApproachData />
-        <CompareAccuracy />
+        <Suggestions />
       </div>
 
       {/* Third Row with AccuracyChart and TimeTaken using flex */}
