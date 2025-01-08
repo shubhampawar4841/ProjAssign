@@ -39,8 +39,10 @@ const subjects = [
               d="M13 10V3L4 14h7v7l9-11h-7z"
             />
           </svg>
-          <span>Improvements</span>
+          <span className="text-slate-500">Improvements</span>
         </h3>
+        <span className="text-sm font-bold">Subject Understanding</span>
+  
         <div className="flex flex-wrap gap-1">
           {subjects.map((subject, index) => (
             <span
@@ -56,6 +58,7 @@ const subjects = [
       </div>
     );
   }
+
   
   export default SubjectTags;
   

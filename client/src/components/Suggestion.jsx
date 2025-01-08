@@ -7,11 +7,11 @@ function Suggestions() {
   
     return (
       <div className="bg-white rounded-md p-2 border-l-2 border-cyan-400">
-        <h3 className="text-xs font-semibold mb-2 flex items-center gap-1">
+        <h3 className="text-xs font-semibold mb-2 flex items-center gap-1 text-slate-400">
           <svg
             className="w-4 h-4"
             fill="none"
-            stroke="currentColor"
+            stroke="black"
             viewBox="0 0 24 24"
           >
             <path

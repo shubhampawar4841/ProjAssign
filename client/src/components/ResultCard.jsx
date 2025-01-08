@@ -5,9 +5,9 @@ function ResultCard() {
     <div className="bg-white rounded-lg p-6 border-2 border-dotted border-gray-300">
       {/* Main Result Section */}
       <div className="flex flex-col items-center mb-6">
-        <img src="/avatar.jpg" alt="Result" className="w-48 h-48" />
+        <img src="/ats.png" alt="Result" className="w-48 h-48" />
         <h2 className="text-indigo-600 text-2xl font-semibold mt-4">Your Result!</h2>
-        <p className="text-gray-500">All your insights & details in one place</p>
+        <p className="text-gray-500 text-xs">All your insights & details in one place</p>
       </div>
 
       {/* Score Section */}

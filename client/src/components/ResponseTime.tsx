@@ -10,7 +10,7 @@ function ResponseTime() {
               d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
-          <span>Response Time</span>
+          <span className="text-slate-400">Response Time</span>
         </h3>
         {/* Flex container for percentage and time */}
         <div className="flex items-center justify-between bg-indigo-100 p-2 rounded-md border border-dotted border-gray-300">
