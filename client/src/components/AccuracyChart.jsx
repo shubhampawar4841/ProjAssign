@@ -6,8 +6,7 @@ function AccuracyChart() {
       <div className="bg-white rounded-lg p-6 shadow-lg">
         <h3 className="text-xl font-semibold mb-4 text-slate-400">Accuracy Over Time</h3>
         <p className="text-sm text-gray-600 mb-6">
-          This chart compares accuracy levels over a series of tasks or time intervals.
-          Hover over the bars to see detailed percentages.
+          This chart compares accuracy levels 
         </p>
         <div className="h-64 relative">
           {/* Chart Grid */}

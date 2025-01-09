@@ -1,12 +1,12 @@
 function Suggestions() {
     const suggestions = [
-      { label: "Easy", time: "40sec", color: "bg-teal-100 text-teal-800" },
-      { label: "Medium", time: "1.5min", color: "bg-amber-100 text-amber-800" },
-      { label: "Hard", time: "3min", color: "bg-red-100 text-red-800" },
+      {Q:"1-12", label: "Easy", time: "40sec", color: "bg-teal-100 text-teal-800" },
+      {Q:"1-12", label: "Medium", time: "1.5min", color: "bg-amber-100 text-amber-800" },
+      {Q:"1-12", label: "Hard", time: "3min", color: "bg-red-100 text-red-800" },
     ];
   
     return (
-      <div className="bg-white rounded-md p-2 border-l-2 border-cyan-400">
+      <div className="bg-white rounded-md p-2 border-l-2 ">
         <h3 className="text-xs font-semibold mb-2 flex items-center gap-1 text-slate-400">
           <svg
             className="w-4 h-4"
@@ -24,8 +24,11 @@ function Suggestions() {
           Suggestions
         </h3>
         <div className="flex gap-4">
-          {suggestions.map(({ label, time, color }) => (
+          {suggestions.map(({ Q ,label, time, color }) => (
             <div key={label} className="flex flex-col items-center">
+                <span className={`px-2 py-0.5 text-xs rounded-md font-medium bg-blue-400`}>
+                {Q}
+              </span>
               <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${color}`}>
                 {time}
               </span>
