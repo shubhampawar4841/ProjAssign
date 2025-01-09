@@ -42,7 +42,7 @@ function TimeTaken() {
   
           {/* Description Text */}
           <p className="text-sm text-gray-500">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            Lorem ipsum is simply dummy text of the printing and typesetting industry.
           </p>
   
           {/* Second Ruler with Center Indicator */}
@@ -70,7 +70,7 @@ function TimeTaken() {
   
           {/* Description Text */}
           <p className="text-sm text-gray-500">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            Lorem ipsum is simply dummy text of the printing and typesetting industry.
           </p>
         </div>
       </div>
